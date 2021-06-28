@@ -1,0 +1,39 @@
+.Chat {
+  position: relative;
+  width: 50vw;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid lightgray;
+}
+.Header {
+  background: lightslategray;
+  height: 20px;
+  text-align: center;
+  color: white;
+}
+.MessagesField {
+  overflow-y: scroll;
+  height: 85%;
+}
+.InputBlock {
+  bottom: 0;
+}
+.InputBlock textarea {
+  position: absolute;
+  bottom: 0;
+  min-width: 580px;
+  max-width: 580px;
+  min-height: 50px;
+  max-height: 50px;
+}
+.InputBlock button {
+  float: right;
+  height: 40px;
+  width: 55px;
+  background: lightslategray;
+  text-align: center;
+  color: white;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=MessagesScreen.css.map */
