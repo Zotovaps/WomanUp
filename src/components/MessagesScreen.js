@@ -5,6 +5,11 @@ import {useFormInput} from '../Utils/Hook'
 import Message from "./Message"
 import '../styles/MessagesScreen.css'
 
+/**
+ * Component for showing chat field.
+ *
+ * @component
+ */
 const MessagesScreen = ({db = null}) => {
     const [messages, setMessages] = useState([])
     const msgText = useFormInput('')
